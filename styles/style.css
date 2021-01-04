@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 8vh;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    background-color:rgb(53, 192, 127);
+}
+
+.navbar:hover{
+    opacity: 50;
+}
+
+a:visited{
+
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #1e1e24
+}
+
+body::-webkit-scrollbar-thumb{
+    background: white;  
+}
+
+.logo{
+    padding: 0px 920px 0px 20px;
+    color: rgb(243, 243, 243);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    font-size: 16px;
+    
+}
+
+.nav-links li{
+    display: inline;
+    padding: 7px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-home{
+}
+
+.nav-about{
+    background-color: black;
+}
+
+.nav-contact{
+    outline-style: solid;    
+}
+
+
+/* @media screen and (max-width:768px){
+    body{
+        display: none;  
+    }
+} */
